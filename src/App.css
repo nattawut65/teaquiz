@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@300&family=Prompt:wght@200&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.page-wrapper {
   display: flex;
   flex-direction: column;
+  min-height: 1vh;
+  justify-content: space-between;
+}
+.row a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: sarabun ;
+}
+
+.container h1 {
+  font-size: 25px;
+  font-family: prompt;
+  text-decoration: underline;
+}
+
+.col h3 {
+  font-size: 30px;
+  font-family: mitr;
+}
+
+.col p{
+  font-size: 25px;
+  font-family: sarabun ;
+}
+
+.col button{
+  font-size: 15px;
+  font-family: sarabun ;
+}
+
+.bg-custom {
+  background-color: rgb(255, 140, 0);
+}
+
+.footer {
+  display: flex;
+  bottom: 0;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 0 20px;
+  width: 100%;
+  height: 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-left {
+  color: blue;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-right {
+  color: rgb(8, 0, 255);
+}
+
+.border {
+  border-color: aliceblue;
 }
